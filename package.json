@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/techieanant/ChanChain#readme",
   "devDependencies": {
+    "ethereumjs-abi": "^0.6.5",
     "lite-server": "^2.4.0",
     "solidity-coverage": "^0.5.7",
     "truffle": "^4.1.13",
