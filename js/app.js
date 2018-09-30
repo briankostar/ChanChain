@@ -281,6 +281,7 @@ App = {
 
   reloadAllCards: function () {
     $('#contentRow').empty();
+    $(".loader-container").hide();
     var threads = App.lastActiveThreads.sort(function (x, y) {
       return y.lastUpdated.toNumber() - x.lastUpdated.toNumber();
     });
